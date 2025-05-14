@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidul Islam - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="logo">SaiduL.</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#documents">Documents</a></li>
+                    <li><a href="#work">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h3>Full Stack Developer</h3>
+                <h1>Hi, I'm <span>SaiduL Islam</span></h1>
+                <h2>From Bangladesh</h2>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/saidul-islam-aiub/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/SaidulIslaM78817"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#work" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Hire Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./Screenshot_20250513_191355_Photos.png" alt="SaiduL Islam">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1 class="section-title">About Me</h1>
+            <div class="about-content">
+    
+                <div class="about-text">
+                    <div class="about-image">
+                         <img src="./" alt="About SaiduL">
+                         <p class="text-about">Computer Science graduate with expertise in full stack development. Passionate about creating efficient, scalable applications with intuitive user interfaces. Experienced in multiple programming languages and frameworks.</p>
+                    </div>
+                    <div class="skills-section">
+                        <div class="tab-title active" data-tab="skills">Skills</div>
+                        <div class="tab-title" data-tab="experience">Experience</div>
+                        <div class="tab-title" data-tab="education">Education</div>
+                    </div>
+                    <div class="tab-content active" id="skills">
+                        <ul class="skills-content">
+                            <li><span>Programming Languages:</span><br><div class="C">C++, Java, C#, Python, JavaScript, HTML, CSS</div></li>
+                            <li><span>Frameworks:</span><br><div class="C"></div> Spring, Django, Flask, Node.js, React.js, Vue.js</li>
+                            <li><span>Database:</span><br> <div class="C"></div>MySQL, MongoDB, PostgreSQL</li>
+                            <!-- <li><span>Tools:</span><br> <div class="C"></div>Git, Docker, AWS, Azure</li>
+                            <li><span>Operating Systems:</span><br><div class="C"></div> Windows, Linux, macOS</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul class="expreiences-content">
+                            <li><span>Full Stack Developer</span><br><div class="C"></div>SaiduL Islam, Bangladesh<br>2021-Present</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul class="education-content">
+                            <li><span>Bachelor of Science in Computer Science</span><br><div class="C"></div>American International University-Bangladesh(AIUB)</li>
+                            <li><span>HSC(Cumilla Board)</span><br><div class="C"></div>Cumilla Cantonment Collage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="documents" class="documents-section">
+        <div class="container">
+            <h1 class="section-title">My Documents</h1>
+            <div class="documents-grid">
+                <!-- <div class="document-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Resume</h3>
+                    <p>Detailed professional resume with skills and experience</p>
+                    <a href="assets/documents/resume.pdf" download class="btn primary">
+                        <i class="fas fa-download"></i> Download
+                    </a>
+                </div>
+                <div class="document-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Cover Letter</h3>
+                    <p>Professional cover letter template</p>
+                    <a href="#" class="btn secondary">Read More</a>
+                </div> -->
+                <div class="document-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certifications</h3>
+                    <p>Collection of my professional certifications</p>
+                    <a href="#" class="btn secondary">View All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work-section">
+        <div class="container">
+            <h1 class="section-title">My Projects</h1>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="Hospital Management System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hospital Management </h3>
+                        <p>Java-based system for hospital operations with patient records, appointments, and billing.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="#" class="btn primary">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Library Management">
+                    </div>
+                    <div class="project-info">
+                        <h3>Library Management</h3>
+                        <p>C# application for automating school library operations with inventory tracking.</p>
+                        <div class="project-tech">
+                            <span>C#</span>
+                            <span>.NET</span>
+                        </div>
+                        <a href="#" class="btn primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h1 class="section-title">Get In Touch</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>saidulisalm1117@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+8801567901437</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Gazipur, Bangladesh</span>
+                    </div>
+                    <a href="CV Resume .pdf" download class="btn primary download-cv">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <div class="error-message" id="email-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <div class="error-message" id="message-error"></div>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                    <div id="form-response" style="margin-top: 15px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    &copy; <span id="year"></span> SaiduL Islam. All rights reserved.
+                </div>
+                <div class="back-to-top">
+                    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
